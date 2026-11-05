@@ -2,20 +2,92 @@
   "verified_on": "2026-11-05",
   "release_date": "2026-11-19",
   "facts": [
-    {"item": "Release date", "status": "confirmed", "detail": "Thursday, November 19, 2026", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"item": "Platforms", "status": "confirmed", "detail": "PS5 and Xbox Series X|S", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"item": "Price", "status": "confirmed", "detail": "Standard $79.99, Ultimate $99.99 (Ultimate is digital only)", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"item": "Pre-load", "status": "confirmed", "detail": "November 12 for digital and boxed copies (the box holds a download code)", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"item": "Pre-order bonus", "status": "confirmed", "detail": "Vintage Vice City Pack with any purchase before November 20", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"item": "Mode at launch", "status": "confirmed", "detail": "Single-player only", "source": "https://allthings.how/gta-6-online-why-twitch-s-dan-clancy-expects-a-launch/"},
-    {"item": "Online mode", "status": "not announced", "detail": "Twitch's CEO expects 2027; Rockstar has not confirmed one", "source": "https://allthings.how/gta-6-online-why-twitch-s-dan-clancy-expects-a-launch/"},
-    {"item": "PC version", "status": "not announced", "detail": "No PC listing from Rockstar or Take-Two", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"item": "Roleplay servers", "status": "not announced", "detail": "GTA roleplay runs on GTA V through FiveM for now", "source": "https://fivemrides.com/gta-6-rp/"}
+    {
+      "item": "Release date",
+      "status": "confirmed",
+      "detail": "Thursday, November 19, 2026",
+      "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"
+    },
+    {
+      "item": "Platforms",
+      "status": "confirmed",
+      "detail": "PS5 and Xbox Series X|S",
+      "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"
+    },
+    {
+      "item": "Price",
+      "status": "confirmed",
+      "detail": "Standard $79.99, Ultimate $99.99 (Ultimate is digital only)",
+      "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"
+    },
+    {
+      "item": "Pre-load",
+      "status": "confirmed",
+      "detail": "Digital pre-load starts November 10 (PS5 at midnight local time, Xbox at midnight GMT). Codes in boxed copies arrive November 12 and can pre-load right away.",
+      "source": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "item": "Install size",
+      "status": "confirmed",
+      "detail": "Up to 212GB of free space on PS5 and Xbox Series X|S",
+      "source": "https://kotaku.com/gta-6-pre-load-times-install-size-and-global-release-times-confirmed-2000752787"
+    },
+    {
+      "item": "Pre-order bonus",
+      "status": "confirmed",
+      "detail": "Vintage Vice City Pack with any purchase before November 20",
+      "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"
+    },
+    {
+      "item": "Mode at launch",
+      "status": "confirmed",
+      "detail": "Single-player only",
+      "source": "https://allthings.how/gta-6-online-why-twitch-s-dan-clancy-expects-a-launch/"
+    },
+    {
+      "item": "Online mode",
+      "status": "not announced",
+      "detail": "Twitch's CEO expects 2027; Rockstar has not confirmed one",
+      "source": "https://allthings.how/gta-6-online-why-twitch-s-dan-clancy-expects-a-launch/"
+    },
+    {
+      "item": "PC version",
+      "status": "not announced",
+      "detail": "No PC listing from Rockstar or Take-Two",
+      "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"
+    },
+    {
+      "item": "Roleplay servers",
+      "status": "not announced",
+      "detail": "GTA roleplay runs on GTA V through FiveM for now",
+      "source": "https://fivemrides.com/gta-6-rp/"
+    }
   ],
   "upcoming": [
-    {"date": "2026-11-09", "event": "Take-Two quarterly earnings report", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"date": "2026-11-12", "event": "Pre-load opens", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"date": "2026-11-19", "event": "GTA 6 launches", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"},
-    {"date": "2026-11-20", "event": "Vintage Vice City Pack offer ends", "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"}
+    {
+      "date": "2026-11-09",
+      "event": "Take-Two quarterly earnings report",
+      "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "Digital pre-load opens",
+      "source": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "Boxed-copy codes arrive (pre-load right away)",
+      "source": "https://www.pcworld.com/article/3276995/gta-6-pre-load-starts-next-week-heres-what-to-do-before-then.html"
+    },
+    {
+      "date": "2026-11-19",
+      "event": "GTA 6 launches",
+      "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"
+    },
+    {
+      "date": "2026-11-20",
+      "event": "Vintage Vice City Pack offer ends",
+      "source": "https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026"
+    }
   ]
 }
