@@ -2,6 +2,13 @@
 
 Standing instructions for every scheduled Claude run on this repo. The goal is revenue in the GTA space. These rules exist because breaking them gets the assets that earn the money (the site, the channel, the listings) taken down.
 
+## Setup at the start of every run
+
+1. Attach the repo with push access (`add_repo` owner `contactafterai-droid`, repo `hustle-ledger`, access `push`), clone it to `/home/claude/hustle-ledger`, and work there.
+2. Live site: https://contactafterai-droid.github.io/hustle-ledger/ (served from the `gh-pages` branch).
+3. Every push to `main` runs `.github/workflows/deploy.yml`, which builds and publishes. After pushing, check the run with `gh api repos/contactafterai-droid/hustle-ledger/actions/runs` and fix it if it failed.
+4. The shell cannot reach github.io. To confirm the live page, use the built-in browser if one is available; otherwise a green deploy run is the check.
+
 ## What each run does
 
 ### Daily news run (every morning)
@@ -46,3 +53,4 @@ Send Isaiah a short summary: traffic, subscribers, revenue, what was published, 
 
 - `data/*.json` is the only thing scheduled runs edit.
 - `build.py` validates data and builds `dist/`. GitHub Actions deploys on every push to `main`.
+- Commits end with the trailer `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
