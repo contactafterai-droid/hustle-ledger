@@ -1,0 +1,48 @@
+name: List my roleplay server
+description: Submit a GTA roleplay server for the Hustle Ledger directory. Listings are free.
+title: "Server listing: "
+labels: ["server-listing"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Server name
+    validations:
+      required: true
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      options: ["GTA V", "GTA 6"]
+    validations:
+      required: true
+  - type: input
+    id: style
+    attributes:
+      label: Style
+      description: For example serious RP, whitelisted, casual, police-focused
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Website or Discord invite
+    validations:
+      required: true
+  - type: input
+    id: store
+    attributes:
+      label: Tebex store link, if you sell perks
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Listing rules
+      options:
+        - label: Our site and store name an operator contact email
+          required: true
+        - label: Our store says the server is not approved, sponsored, or endorsed by Rockstar Games
+          required: true
+        - label: Paid perks run through Tebex only, with no in-game cash, loot boxes or crypto for sale
+          required: true
+        - label: Our name and branding use no Rockstar logos or trademarks
+          required: true
