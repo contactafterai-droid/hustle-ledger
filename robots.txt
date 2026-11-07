@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://contactafterai-droid.github.io/hustle-ledger/sitemap.xml
