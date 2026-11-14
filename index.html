@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hustle Ledger: GTA 6 money methods, news and RP servers</title>
+<meta name="description" content="Every confirmed GTA 6 fact with its source, money methods ranked by real hourly earnings after launch, and a roleplay server directory.">
+<link rel="canonical" href="https://contactafterai-droid.github.io/hustle-ledger/">
+<link rel="alternate" type="application/rss+xml" title="Hustle Ledger news" href="https://contactafterai-droid.github.io/hustle-ledger/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=JetBrains+Mono&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#e9f0ed;--card:#f6f9f8;--ink:#11302a;--soft:#4d6862;--line:#c5d3ce;
+--marker:#f4c21b;--note:#1f5c50;--warn:#9a3d12;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--paper:#0d1c19;--card:#132724;--ink:#e3eeea;
+--soft:#97b0a9;--line:#2a4540;--marker:#e7b416;--note:#7cc7b4;--warn:#f0a070;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 "Public Sans",system-ui,sans-serif;
+font-variant-numeric:tabular-nums}
+a{color:var(--note);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--marker);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 0;flex-wrap:wrap}
+.brand{font:700 22px/1 "Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.02em;color:var(--ink);text-decoration:none}
+nav a{margin-left:18px;color:var(--soft);text-decoration:none;font-size:15px}
+nav a:hover{color:var(--ink)}
+.hero{padding:40px 0 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:end}
+h1{font:800 clamp(44px,7vw,84px)/.95 "Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.035em;margin:0 0 20px}
+.hero p{max-width:34ch;color:var(--soft);margin:0}
+.count{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+.count .row{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:10px 0;border-bottom:1px dashed var(--line)}
+.count .row .mono{white-space:nowrap}
+.count .row:last-child{border-bottom:0}
+.count .big{font:800 56px/1 "Bricolage Grotesque",system-ui,sans-serif;
+background:linear-gradient(transparent 58%,var(--marker) 58%,var(--marker) 92%,transparent 92%);padding:0 4px}
+section{padding:44px 0;border-top:1px solid var(--line)}
+h2{font:700 30px/1.1 "Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.02em;margin:0 0 8px}
+.lede{color:var(--soft);margin:0 0 24px;max-width:62ch}
+table{width:100%;border-collapse:collapse;font-size:16px}
+th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--soft);font-size:14px}
+.st{white-space:nowrap;font-size:14px;font-weight:600}
+.st.confirmed{color:var(--note)}.st.na{color:var(--warn)}
+.news{list-style:none;padding:0;margin:0;display:grid;gap:22px}
+.news time{color:var(--soft);font-size:14px}
+.news h3{font:700 20px/1.25 "Bricolage Grotesque",system-ui,sans-serif;margin:2px 0 6px}
+.news p{margin:0 0 4px;max-width:68ch}
+.news .src{font-size:14px}
+.board{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+.board .empty{border:2px dashed var(--line);border-radius:10px;padding:22px;margin-top:16px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+ul.rules{padding-left:20px;margin:8px 0 0}
+code,.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:14px}
+.api li{margin:6px 0}
+form.sub{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+form.sub input{flex:1 1 240px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+.btn{padding:12px 18px;border-radius:10px;border:0;background:var(--ink);color:var(--paper);font:600 16px "Public Sans",sans-serif;cursor:pointer;text-decoration:none;display:inline-block}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+footer{padding:36px 0 60px;color:var(--soft);font-size:14px;border-top:1px solid var(--line)}
+.count .big{white-space:nowrap;color:#11302a;background:var(--marker);border-radius:6px;padding:2px 8px}
+@media (max-width:760px){.hero,.two{grid-template-columns:1fr}nav a{margin:0 14px 0 0}
+.count .big{font-size:40px}.count .row{flex-wrap:wrap}
+th:nth-child(3),td:nth-child(3){display:none}}
+</style></head><body>
+<div class="wrap">
+<header class="top"><a class="brand" href="#">Hustle Ledger</a>
+<nav><a href="#facts">Facts</a><a href="#money">Money</a><a href="#news">News</a><a href="#servers">Servers</a><a href="#api">API</a></nav></header>
+<div class="hero"><div><h1>GTA 6 money, measured.</h1>
+<p>Confirmed facts with sources, money methods ranked by what they pay per real hour, and roleplay servers worth joining.</p></div>
+<div class="count" aria-label="Countdown to launch"><div class="row"><span>GTA 6 launch</span><span class="big">5 days</span></div><div class='row'><span>GTA 6 launches</span><span class='mono'>Nov 19, 2026</span></div><div class='row'><span>Vintage Vice City Pack offer ends</span><span class='mono'>Nov 20, 2026</span></div></div></div>
+
+<section id="facts"><h2>What's confirmed</h2><p class="lede">Checked against sources on Nov 5, 2026. Anything unconfirmed is marked so.</p>
+<table><thead><tr><th>Item</th><th>Status</th><th>Detail</th></tr></thead><tbody><tr><td>Release date</td><td class='st confirmed'>Confirmed</td><td>Thursday, November 19, 2026 <a href='https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026' rel='nofollow noopener'>source</a></td></tr><tr><td>Platforms</td><td class='st confirmed'>Confirmed</td><td>PS5 and Xbox Series X|S <a href='https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026' rel='nofollow noopener'>source</a></td></tr><tr><td>Price</td><td class='st confirmed'>Confirmed</td><td>Standard $79.99, Ultimate $99.99 (Ultimate is digital only) <a href='https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026' rel='nofollow noopener'>source</a></td></tr><tr><td>Pre-load</td><td class='st confirmed'>Confirmed</td><td>Digital pre-load starts November 10 (PS5 at midnight local time, Xbox at midnight GMT). Codes in boxed copies arrive November 12 and can pre-load right away. <a href='https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10' rel='nofollow noopener'>source</a></td></tr><tr><td>Install size</td><td class='st confirmed'>Confirmed</td><td>Up to 212GB of free space on PS5 and Xbox Series X|S <a href='https://kotaku.com/gta-6-pre-load-times-install-size-and-global-release-times-confirmed-2000752787' rel='nofollow noopener'>source</a></td></tr><tr><td>Pre-order bonus</td><td class='st confirmed'>Confirmed</td><td>Vintage Vice City Pack with any purchase before November 20 <a href='https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026' rel='nofollow noopener'>source</a></td></tr><tr><td>Mode at launch</td><td class='st confirmed'>Confirmed</td><td>Single-player only <a href='https://allthings.how/gta-6-online-why-twitch-s-dan-clancy-expects-a-launch/' rel='nofollow noopener'>source</a></td></tr><tr><td>Online mode</td><td class='st na'>Not announced</td><td>Twitch&#x27;s CEO expects 2027; Rockstar has not confirmed one <a href='https://allthings.how/gta-6-online-why-twitch-s-dan-clancy-expects-a-launch/' rel='nofollow noopener'>source</a></td></tr><tr><td>PC version</td><td class='st na'>Not announced</td><td>No PC listing from Rockstar or Take-Two <a href='https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026' rel='nofollow noopener'>source</a></td></tr><tr><td>Roleplay servers</td><td class='st na'>Not announced</td><td>GTA roleplay runs on GTA V through FiveM for now <a href='https://fivemrides.com/gta-6-rp/' rel='nofollow noopener'>source</a></td></tr></tbody></table></section>
+
+<section id="money"><h2>Money board</h2><p class="lede">The fastest legitimate ways to get rich in story mode, ranked by in-game dollars per real hour.</p>
+<div class="board"><div class='empty'><strong>Rankings go live after launch.</strong> Each method needs at least two independent community sources before it is ranked.<p style='margin:12px 0 0'>Systems confirmed so far:</p><ul class='rules'><li><strong>Pawn shops:</strong> Buy stolen goods <a href='https://www.gamingbible.com/news/gta-6-new-details-504977-20260831' rel='nofollow noopener'>source</a></li><li><strong>Car theft:</strong> High-end cars carry GPS trackers a mechanic must remove; a focus view shows a car&#x27;s value before you steal it <a href='https://www.gamingbible.com/news/gta-6-new-details-504977-20260831' rel='nofollow noopener'>source</a></li></ul></div></div></section>
+
+<section id="news"><h2>News</h2><p class="lede">What changed, in plain words, with a link to who reported it.</p><ul class="news"><li><time datetime='2026-11-05'>Nov 5, 2026</time><h3>Rockstar posts a new launch gallery of GTA 6 screenshots</h3><p>Two weeks out, Rockstar added a fresh batch of official screenshots to the GTA 6 site, showing Vice City nightlife, wildlife, chases and diving around Leonida. No story details, just a last look before November 19.</p><a class='src' href='https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/' rel='nofollow noopener'>Reported by PC Gamer</a></li><li><time datetime='2026-11-04'>Nov 4, 2026</time><h3>Data firm estimates GTA 6 pre-orders near 7.7 million</h3><p>Sensor Tower estimates about 7.71 million console pre-orders worth roughly $751 million, around three quarters on PS5. This is a third-party estimate; Rockstar and Take-Two have not shared sales figures.</p><a class='src' href='https://kotaku.com/gta-6-has-already-sold-nearly-8-million-copies-one-data-firm-claims-2000753423' rel='nofollow noopener'>Reported by Kotaku</a></li><li><time datetime='2026-11-03'>Nov 3, 2026</time><h3>Pre-load moves up to November 10 and needs up to 212GB</h3><p>Rockstar set digital pre-load for November 10: midnight local time on PS5, midnight GMT on Xbox. Boxed copies hold a code that arrives November 12. Clear up to 212GB. We had listed November 12 for everyone; the facts table is now corrected.</p><a class='src' href='https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10' rel='nofollow noopener'>Reported by Rockstar Newswire</a></li><li><time datetime='2026-10-15'>Oct 15, 2026</time><h3>Rockstar releases the GTA 6 launch trailer</h3><p>A 90-second trailer captured on PS5 opens on Jason&#x27;s exit from the army and Lucia calling him from prison, then runs through heists and chases ahead of the November 19 launch.</p><a class='src' href='https://www.gamebrief.net/blog/gta-6-release-date-price-pre-order-pc-2026' rel='nofollow noopener'>Reported by GameBrief</a></li><li><time datetime='2026-09-10'>Sep 10, 2026</time><h3>Rockstar publishes formal mod rules that will cover GTA 6</h3><p>Story expansions and cross-game mashups are banned, and mods can only be sold through storefronts Rockstar approves. No crypto, gambling or selling in-game cash.</p><a class='src' href='https://www.gamedeveloper.com/production/-do-not-rockstar-outlines-modding-rules-before-gta-vi-touches-down' rel='nofollow noopener'>Reported by Game Developer</a></li><li><time datetime='2026-09-08'>Sep 8, 2026</time><h3>NoPixel V opens a closed beta on the Rockstar Games Launcher</h3><p>The best-known GTA V roleplay server now launches from Rockstar&#x27;s own client for about 450 invited players, the clearest sign yet that Rockstar backs roleplay.</p><a class='src' href='https://runtimewire.com/article/koil-nopixel-v-rockstar-launcher-twitch-gta-rp-week' rel='nofollow noopener'>Reported by Runtime Wire</a></li><li><time datetime='2026-08-31'>Aug 31, 2026</time><h3>Early preview adds detail on cars, pawn shops and an in-game social feed</h3><p>A streamer Rockstar invited to a hands-off preview described GPS trackers on high-end cars that a mechanic must remove, pawn shops that buy stolen goods, and a short-video social network inside the game.</p><a class='src' href='https://www.gamingbible.com/news/gta-6-new-details-504977-20260831' rel='nofollow noopener'>Reported by GamingBible</a></li></ul></section>
+
+<section id="servers" class="two"><div><h2>Roleplay servers</h2><p class="lede">A directory of servers that follow the platform rules, so they won't vanish overnight.</p><div class='empty'><strong>Accepting the first listings.</strong> GTA V roleplay servers now, GTA 6 servers the day they exist.</div></div>
+<div class="board"><strong>List your server</strong><p style="margin:6px 0 0">Listings are free. To be listed:</p><ul class="rules"><li>Your site and store name an operator contact email</li><li>Your store carries a &#x27;not approved, sponsored, or endorsed by Rockstar Games&#x27; disclaimer</li><li>Paid perks run through Tebex only, with no in-game cash, loot boxes or crypto for sale</li><li>Your server name and branding use no Rockstar logos or trademarks</li></ul><p style="margin:16px 0 0"><a class='btn' href='https://github.com/contactafterai-droid/hustle-ledger/issues/new?template=server-listing.yml'>Submit your server</a></p></div></section>
+
+<section id="newsletter"><h2>The Ledger, weekly</h2><p class="lede">The best money method this week and what changed, in a two-minute email.</p><form class='sub' onsubmit='return false'><input type='email' disabled placeholder='Sign-up opens before launch'><button class='btn' disabled>Subscribe</button></form></section>
+
+<section id="api"><h2>Free API</h2><p class="lede">The same data as this page, as JSON. Free to use with a link back.</p>
+<ul class="api"><li><code>https://contactafterai-droid.github.io/hustle-ledger/api/v1/facts.json</code></li><li><code>https://contactafterai-droid.github.io/hustle-ledger/api/v1/news.json</code></li>
+<li><code>https://contactafterai-droid.github.io/hustle-ledger/api/v1/money-methods.json</code></li><li><code>https://contactafterai-droid.github.io/hustle-ledger/api/v1/servers.json</code></li></ul></section>
+</div>
+<footer><div class="wrap">Hustle Ledger is a fan site. It is not affiliated with, approved, sponsored or endorsed by Rockstar Games or Take-Two Interactive. Game names are trademarks of their owners. <a href="https://github.com/contactafterai-droid/hustle-ledger/issues/new">Contact us</a></div></footer>
+</body></html>
