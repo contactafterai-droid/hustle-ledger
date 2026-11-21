@@ -1,0 +1,17 @@
+{
+  "status": "pending_launch",
+  "note": "Each method needs at least two independent community sources before it is ranked.",
+  "known_systems": [
+    {
+      "system": "Pawn shops",
+      "detail": "Buy stolen goods",
+      "source": "https://www.gamingbible.com/news/gta-6-new-details-504977-20260831"
+    },
+    {
+      "system": "Car theft",
+      "detail": "High-end cars carry GPS trackers a mechanic must remove; a focus view shows a car's value before you steal it",
+      "source": "https://www.gamingbible.com/news/gta-6-new-details-504977-20260831"
+    }
+  ],
+  "methods": []
+}
